@@ -1,0 +1,26 @@
+.back-btn a {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 8px;
+    transition: color 0.2s ease;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    margin-top: 16px;
+
+    svg {
+        transition: 0.3s;
+    }
+}
+
+.back-btn a:hover {
+    text-decoration: underline;
+}
+
+.back-btn a:hover svg {
+    transform: translateX(-4px);
+}
