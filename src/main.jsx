@@ -5,7 +5,6 @@ import "./index.css";
 import Edit from "./pages/Edit.jsx";
 import Route from "./Route.jsx";
 import Home from "./pages/Home/Home.jsx";
-import Back from "./pages/Back.jsx"
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -19,12 +18,6 @@ const routes = createBrowserRouter([
        {
          path: "edit/:id",
          element: <Edit />,
-         children: [
-          {
-            path: "",
-            element: <Back />
-          }
-         ]
        },
     ],
   },
