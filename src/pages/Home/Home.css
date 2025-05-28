@@ -115,3 +115,18 @@
     }
 
 }
+
+@media screen and (max-width: 992px) {
+    .content {
+        flex-direction: column;
+
+        form.mainForm {
+            width: 100%;
+        }
+
+        .table {
+            width: 100%;
+            margin: 30px auto;
+        }
+    }
+}
